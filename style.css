@@ -1,11 +1,37 @@
 body {
-    background: #CCCCCC 
+    margin: 0;
 }
 
-p {
-text-align: center;
+h1 h2 {
+    text-align: center;
 }
 
-em strong{
-        color: red;
+.principal {
+    background: #CCCCCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.principal p {
+    text-align: center;
+}
+
+em strong {
+    color: #FF0000;
+}
+
+#banner {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15%;
 }
